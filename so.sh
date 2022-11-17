@@ -16,25 +16,30 @@ echo ""
 echo ""
 
 sleep 2
-echo "Ini Nomutex:"
 cat mutex.c
+echo "\n"
+echo "Ini Nomutex:"
 gcc nomutex.c -lpthread -o nomutex
 ./nomutex
 sleep 3
 echo ""
 echo ""
 
-echo "Ini Mutex:"
+
 cat nomutex.c
+echo "\n"
+echo "Ini Mutex:"
 gcc mutex.c -lpthread -o mutex
 ./mutex
 sleep 3
 echo ""
 echo ""
 
-echo "Ini Semaphore:"
+
+echo "\n"
 cat semaphore.c
-gcc semaphore.c -lpthread -o mutex
+echo "Ini Semaphore:"
+gcc semaphore.c -lpthread -o semaphore
 ./semaphore
 sleep 3
 echo ""
