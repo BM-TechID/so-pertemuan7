@@ -1,7 +1,7 @@
 clear
 mkdir so
 cd so
-curl -O https://x.nasihosting.com/so/so.zip && unzip so.zip
+curl -O https://github.com/BM-TechID/so-pertemuan7/blob/main/so.zip && unzip so.zip
 clear
 sleep 2
 echo "BY: BM"
@@ -16,12 +16,14 @@ gcc nomutex.c -lpthread -o nomutex
 sleep 3
 echo ""
 echo ""
-echo "Ini Mutex:
+
+echo "Ini Mutex:"
 gcc mutex.c -lpthread -o mutex
 ./mutex
 sleep 3
 echo ""
 echo ""
+
 echo "Ini Semaphore:"
 gcc semaphore.c -lpthread -o mutex
 ./semaphore
