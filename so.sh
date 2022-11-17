@@ -5,9 +5,9 @@
 clear
 mkdir so
 cd so
-curl -O https://github.com/BM-TechID/so-pertemuan7/raw/main/mutex.c
-curl -O https://github.com/BM-TechID/so-pertemuan7/raw/main/nomutex.c
-curl -O https://github.com/BM-TechID/so-pertemuan7/raw/main/semaphore.c
+curl -O https://raw.githubusercontent.com/BM-TechID/so-pertemuan7/main/mutex.c
+curl -O https://raw.githubusercontent.com/BM-TechID/so-pertemuan7/main/nomutex.c
+curl -O https://raw.githubusercontent.com/BM-TechID/so-pertemuan7/main/semaphore.c
 clear
 sleep 2
 echo "BY: BM"
